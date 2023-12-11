@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotheca Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Ephesis&family=Smooch&display=swap" rel="stylesheet">
+<link rel="stylesheet" href ="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" >
+
+</head>
+<body>
+    <section class="yean">
+        <nav>
+            <a href="index.html"><img src="images/Capture4.JPG"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+   
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="containers">
+            <h1>Contact us</h1>
+            <p>Explore the unseen, dive into the unheard</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3> Send your request</h3>
+                    <form action="" id="ContactForm">
+                        
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" id="name" placeholder="Christien hue">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" id="phone" placeholder="+01 8591342067">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" id="email" placeholder="chrishue@gamil.com">
+                            </div>
+                        </div>
+                        <div class="btn-y">
+                            <button type="submit">SEND</button>
+                        </div>
+                        <div class="alert">Your message is sent</div>
+                    </form>
+
+
+
+                </div>
+
+            </div>
+        </div>    
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+   
+    
+</body>
+</html>
